@@ -8,9 +8,34 @@ body {
 }
 
 main {
-    background-color: cornsilk;
-    width: 500px;
+    background-color: white;
+    width: 800px;
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.363);
+}
+
+h1 {
+    font-size: 1.5cm;
+    color: rgb(108, 71, 133);
+}
+
+h2 {
+    font-size: 1cm;
+    color: rgb(30, 59, 223);
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: teal;
+}
+
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(51, 179, 196);
+}
+img.lado {
+    float: right;
 }
